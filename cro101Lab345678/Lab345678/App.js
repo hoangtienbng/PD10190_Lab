@@ -1,8 +1,9 @@
 import React from "react";
-import Lab53 from "./Lab53";
+import DrawerNavigator from "./Lab6/DrawerNavigator";
+
 
 const App = () => {
-  return <Lab53></Lab53>
+  return <DrawerNavigator></DrawerNavigator>
 };
 
 export default App;

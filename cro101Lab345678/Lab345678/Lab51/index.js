@@ -6,8 +6,8 @@ import styles from "./styles"; // Import file styles.js
 
 const Lab51 = () => {
     let [fontsLoaded] = useFonts({
-        Shafarik: require("../assets/fonts/Shafarik-Regular.ttf"),
-        JetBrainsMono: require("../assets/fonts/JetBrainsMono-Bold.ttf"),
+        Shafarik: require("../assets/fonts/AtkinsonHyperlegibleMono-Bold.ttf"),
+        JetBrainsMono: require("../assets/fonts/AtkinsonHyperlegibleMono-ExtraBold.ttf"),
     });
 
     if (!fontsLoaded) {

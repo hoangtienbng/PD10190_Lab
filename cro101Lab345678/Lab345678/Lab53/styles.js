@@ -10,7 +10,11 @@ export default StyleSheet.create({
     headerImage: {
         width: '100%',
         height: width * 0.6, // Tự động thay đổi theo màn hình
+        borderWidth: 4,  // Độ dày của viền
+        borderColor: '#FFD700',  // Màu vàng giống hoài cổ
+        borderRadius: 10,  // Bo tròn góc nhẹ cho đẹp hơn
     },
+
     overlay: {
         flexDirection: 'row',
         justifyContent: 'space-between',
