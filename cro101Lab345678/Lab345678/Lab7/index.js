@@ -66,7 +66,7 @@ const HomeScreen = () => <TopTabScreen />;
 
 const SettingsScreen = () => (
     <View style={{ flex: 1, justifyContent: "center", alignItems: "center", backgroundColor: themeColors.background }}>
-        <Text style={{ color: themeColors.text, fontSize: 18 }}>Settings Screen</Text>
+        <Text style={{ color: themeColors.text, fontSize: 18 }}>Setting Screen</Text>
     </View>
 );
 
