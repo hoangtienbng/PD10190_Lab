@@ -1,9 +1,11 @@
 import React from "react";
-import DrawerNavigator from "./Lab6/DrawerNavigator";
+import { StatusBar } from "react-native";
+//mport Lab7 from "./Lab7/bai1.js";
 
-
+import Lab7 from "./Lab7/index.js";
 const App = () => {
-  return <DrawerNavigator></DrawerNavigator>
+  return <Lab7>
+  </Lab7>;
 };
 
 export default App;
